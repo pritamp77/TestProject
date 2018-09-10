@@ -18,7 +18,7 @@ public class App
  
         String empName = empDAO.getEmployeeName(1);
  
-        System.out.println("Employee name is " + empName);
+        System.out.println("Employee name is as follows: " + empName);
  
         applicationContext.close();
     
